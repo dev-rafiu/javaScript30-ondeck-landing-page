@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- google font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/8d7b7c02c4.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- css file -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Ondeck</title>
+  </head>
+  <body>
+    <main>
+      <header class="header">
+        <div class="logo-container">
+          <a href="#"><img src="./Assets/Logo.svg" alt="" /></a>
+        </div>
+
+        <!-- nav-links -->
+        <nav class="nav">
+          <ul class="nav__links">
+            <li class="drop-down" data-dropdown>
+              <button class="link" data-dropdown-button>products</button>
+              <div class="drop-down-menu">
+                <header>
+                  <h4 class="title">products</h4>
+                  <button class="close-btn">
+                    <img src="./Assets/Close.svg" alt="" />
+                  </button>
+                </header>
+
+                <div class="drop-down-item">
+                  <h4 class="title">Spense</h4>
+                  <p>
+                    Spense is a landing page for writers.Great for practicing
+                    absolute positioning and flex layouts.
+                  </p>
+                </div>
+                <div class="drop-down-item">
+                  <h4 class="title">Fiber Landing Page</h4>
+                  <p>
+                    An online portfolio generator.Great to practice flex/grid
+                    layouts,and absolute positioning.
+                  </p>
+                </div>
+                <div class="drop-down-item">
+                  <h4 class="title">Gradie Sign Up Page</h4>
+                  <p>
+                    Gradie is a simple sign up page,great to practice centering
+                    layouts.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li><a href="#">challenges</a></li>
+
+            <li><a href="#">resources</a></li>
+
+            <li class="bg-secondary">
+              <a href="#"> other links </a>
+            </li>
+
+            <li class="margin-left"><a href="#" class="sign-in">sign in</a></li>
+            <li><a href="#" class="bg-accent">try for free</a></li>
+          </ul>
+        </nav>
+
+        <!-- hamburger menu -->
+        <button class="menu-btn btn">
+          <img src="./Assets/Menu.svg" alt="" />
+        </button>
+        <!-- </div> -->
+      </header>
+
+      <div class="intro-container">
+        <div class="intro-text">
+          <h1>
+            Ondeck is your remote
+            <span class="clr-secondary">conference calling tool</span>
+          </h1>
+
+          <p>
+            Ondeck is a service that allows you to craete beatiful,online,and
+            encrypted video calls for you and your remote team.
+          </p>
+
+          <a href="#" class="bg-accent">Try for free</a>
+
+          <div class="ratings">
+            <p class="rating">5.0 Rating based on reviews from:</p>
+            <img src="./Assets/Capterra Logo.svg" alt="" />
+            <img src="./Assets/AlternativeTo Logo.svg" alt="" />
+            <i class="fa-brands fa-shopify"></i>
+          </div>
+        </div>
+
+        <div class="img-container">
+          <img src="./Assets/Hero Image.png" alt="" class="hero-img" />
+        </div>
+      </div>
+
+      <footer class="footer">
+        <p>Trusted by 3+ million people at companies like</p>
+        <ul class="companies-list">
+          <li><img src="./Assets/Netflix Logo.svg" alt="" /></li>
+          <li><img src="./Assets/Shopify Logo.svg" alt="" /></li>
+          <li><img src="./Assets/Spotify Logo.svg" alt="" /></li>
+          <li><img src="./Assets/Walmart Logo.svg" alt="" /></li>
+        </ul>
+      </footer>
+    </main>
+    <!-- javaScipt file -->
+    <script src="./script.js"></script>
+  </body>
+</html>

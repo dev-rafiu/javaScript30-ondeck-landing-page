@@ -1,0 +1,40 @@
+@use "variables";
+
+ul {
+  list-style: none;
+}
+
+button {
+  background: none;
+  border: none;
+  transition: transform 0.2s ease;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+button:not(.link):hover {
+  transform: scale(0.9);
+}
+
+.clr-secondary {
+  color: variables.$color-secondary;
+}
+
+.bg-accent {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+  background: hsl(120, 100%, 10%);
+  padding: 0.9rem 1.5rem;
+  border-radius: 4px;
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+.bg-accent:hover {
+  transform: scale(0.98);
+}
+
+p {
+  color: variables.$color-gray;
+  line-height: 1.4;
+}
